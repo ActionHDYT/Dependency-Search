@@ -1,0 +1,13 @@
+# Dependencies 
+## Boost * https://www.boost.org/ ## buildcache
+* https://github.com/mbitsnbites/buildcache ## MS buildtools
+* https://learn.microsoft.com/en-us/visualstudio/releases/2019/history* https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history
+## cmake * https://cmake.org/ ## git
+* https://git-scm.com/ ## ipmiutil
+* https://ipmiutil.sourceforge.net/ ## linux-syscall-support * https://chromium.googlesource.com/linux-syscall-support/* Die Versionen sind hier die Git-Tags ## linuxdeployqt
+* https://github.com/probonopd/linuxdeployqt/releases* Unverständliche Versionierung -> Eventuell Datum vom letzten Release parsen? ## openssl
+* https://www.openssl.org/
+## python
+* https://www.python.org/
+
+{"elements":[{"name":"Python","url":"https://urltopythonOnGithub","parser":"github"},{"name":"Openssl","url":"https://urltopythonOnGithub","parser":"github"}]}

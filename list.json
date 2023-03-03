@@ -1,0 +1,19 @@
+{
+    "elements": [
+        {
+            "name":"Boost",
+            "url":"https://www.boost.org/",
+            "parser":"boost"
+        },
+        {
+            "name": "Python",
+            "url": "https://www.python.org/",
+            "parser": "github"
+        },
+        {
+            "name": "Openssl",
+            "url": "https://urltopythonOnGithub",
+            "parser": "github"
+        }
+    ]
+  }

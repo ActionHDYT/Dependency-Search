@@ -1,0 +1,32 @@
+{
+    "elements":[
+    {
+        "name":"psycopg2",
+        "url":"https://pypi.org/pypi/psycopg2/",
+        "parser":"pypi",
+        "current_version":"2.9.5",
+        "beta":false
+    },
+    {
+        "name":"Flask",
+        "url":"https://pypi.org/pypi/Flask/",
+        "parser":"pypi",
+        "current_version":"2.1.3",
+        "beta":false
+    },
+    {
+        "name":"flask-sqlalchemy",
+        "url":"https://pypi.org/pypi/Flask-SQLAlchemy/",
+        "parser":"pypi",
+        "current_version":"3.0.3",
+        "beta":false
+    },
+    {
+        "name":"Jinja2",
+        "url":"https://pypi.org/pypi/Jinja2/",
+        "parser":"pypi",
+        "current_version":"3.1.1",
+        "beta":false
+    }
+]
+}

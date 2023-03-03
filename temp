@@ -1,0 +1,12 @@
+        {
+            "name":"OpenSSL",
+            "url":"https://github.com/openssl/openssl",
+            "parser":"github",
+            "current_version":"OpenSSL 3.0.8"
+        },
+        {
+            "name":"MSBuildTools",
+            "url":"https://github.com/mbitsnbites/buildcache",
+            "parser":"github",
+            "current_version":"Release v0.28.2"
+        },
