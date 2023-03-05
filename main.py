@@ -1,9 +1,9 @@
-import github_version, microsoft, cmake, git, ipmiutil, lss, python, pypi
+import github_version, microsoft, cmake, git_version, ipmiutil, lss, python, pypi
 import json
 import pandas as pd
-from IPython.display import display, HTML
 
-list = json.load(open("C:/Users/schnupperer/workspace/Dependency-Search/test_list.json"))
+
+list = json.load(open("test_list.json"))
 output = []
 
 def add_to_output(Name, current_version, latest_minor, latest_version):
@@ -35,7 +35,7 @@ def get_parser(i):
         add_to_output(result[0], result[1], result[2], result[3])
         
     # elif list["elements"][i]["parser"] == "git":
-    #     result = git.check_version(list["elements"][i]["url"], list["elements"][i]["current_version"])
+    #     result = git_version.check_version(list["elements"][i]["url"], list["elements"][i]["current_version"])
     #     add_to_output(result[0], result[1], result[2])
         
     elif list["elements"][i]["parser"] == "ipmiutil":
