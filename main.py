@@ -1,6 +1,8 @@
 import github_version, microsoft, cmake, git_version, ipmiutil, lss, python, pypi
 import json
 import pandas as pd
+from time import sleep
+import os
 
 
 list = json.load(open("test_list.json"))
@@ -66,7 +68,11 @@ def get_parser(i):
             
         
 
-            
-for i in range(len(list["elements"])):
-    get_parser(i)
-print_output()
+while True:            
+    for i in range(len(list["elements"])):
+        get_parser(i)
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print_output()
+    output = []
+    sleep(10)
+
