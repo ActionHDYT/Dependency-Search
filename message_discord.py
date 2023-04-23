@@ -34,7 +34,7 @@ async def update():
         df = main.main()
         table = tabulate(df, headers='keys', tablefmt='psql')
         open('table.txt', 'w').write(f'```{table}```')
-        #df = df.to_markdown(index=False)
+
         await asyncio.sleep(10)
 
 
@@ -43,10 +43,8 @@ async def get_versions(interaction: discord.Interaction):
     global df
     print(df + '\n')
     table = tabulate(df, headers='keys', tablefmt='psql')
-    #open('table.txt', 'w').write(f'```{table}```')
+
     await interaction.response.send_message(f'```{table}```')
-    #await interaction.response.send_message(f'```\n{df}\n\n{time.strftime("%H:%M:%S", time.localtime())}```')
-    #await bot.get_channel(1015367266415689728).send(f'```\n{df}\n\n{time.strftime("%H:%M:%S", time.localtime())}```')
 
 
 
